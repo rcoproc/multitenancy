@@ -1,0 +1,23 @@
+{
+  "RootNamespace": "MultiTenancy",
+  "ServerTypings": {
+    "Assemblies": []
+  },
+  "Connections": [
+    {
+      "Key": "Default",
+      "Tables": [
+        {
+          "Tablename": "dbo.Tenants",
+          "Identifier": "Tenants",
+          "Module": "Admninistration",
+          "PermissionKey": "Administration"
+        }
+      ]
+    }
+  ],
+  "BaseRowClasses": [],
+  "RemoveForeignFields": [],
+  "CustomGenerate": {},
+  "CustomSettings": {}
+}
